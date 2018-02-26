@@ -73,11 +73,11 @@ print("Probability: {:.6f}".format(sys_survival_prob))
 Probability: 0.0.972111
 '''
 ```
-#### Networks
+### Networks
 Some helper functions are included for computing signatures for the connectivity between two terminal nodes in a network with unreliable vertices. These are implemented to be familiar to users of the ReliabilityTheory R package and uses the same library (igraph) and notation.
 
 Note that the helper function for constructing a BDD of a network relies on derivation of cut-sets and is computationally intensive for anything except small networks.
-#####Example
+#### Example
 The following example computes and prints the survival signature for the network from Figure 1 of the paper ["Generalizing the signature to systems with multiple types of components"](https://doi.org/10.1007/978-3-642-30662-4_8) (Coolen and Coolen-Maturi, 2012):
 ```python
 from igraph import Graph
@@ -125,7 +125,7 @@ Type   1 | Type   2 | Probability
        3 |        3 | 1.000000
 '''
 ```
-#### Fault Trees and Success Trees
+### Fault Trees and Success Trees
 The trees module contains some functions for computing the BDD for the structure function represented by a [fault tree](https://en.wikipedia.org/wiki/Fault_tree_analysis) or success tree (complement of a fault tree). AND, OR and n-out-of-m gates are supported.
 #### Example
 ```python
