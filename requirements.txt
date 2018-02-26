@@ -1,0 +1,10 @@
+astutils==0.0.3
+dd==0.5.3
+decorator==4.2.1
+networkx==2.1
+numpy==1.14.0
+ply==3.10
+psutil==5.4.3
+pydot==1.2.4
+pyparsing==2.2.0
+python-igraph==0.7.1.post6

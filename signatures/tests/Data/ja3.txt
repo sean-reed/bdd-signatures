@@ -1,0 +1,3 @@
+G1 + G2 G3 BE1
+G2 * BE2 BE3
+G3 * BE2 BE4
